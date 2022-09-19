@@ -1,0 +1,137 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.9;
+    color: black;
+    background-color: whitesmoke;
+    overflow:hidden ;
+}
+.grid-container {
+    display:flex ;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: whitesmoke;
+
+
+}
+a {
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.login {
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 30px;
+    float: left;
+}
+.tagline {
+    font-size: 18px;
+    padding-left: 30px;
+    width: auto;
+    text-align: left;
+    
+    
+}
+
+.column-1, .column-2 {
+    float:left;
+    width: 100%;
+    padding: 10px;
+    height: 640px;
+    text-align: center;
+    background-color: whitesmoke;
+
+
+}
+
+.column-1 {
+   margin-top: 150px;
+   padding-right: 150px;
+   padding-left: 100px;
+}
+input {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid rgb(202, 181, 181);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 80%;
+    background-color: rgb(11, 87, 187);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    
+}
+
+ .button2 {
+        width: 80%;
+        background-color: rgb(53, 146, 34);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: capitalize;
+        
+
+ }
+
+
+.button:hover {
+    background-color: #2b4475;
+
+}
+
+.button2:hover {
+    background-color: #2b4475;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+
+}
+
+.form {
+    border: 3px solid white;
+    padding: 10px  ;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px #dbd0d0;
+    background-color: white;
+    
+}
+
+
+.column-2 {
+    padding: 250px 16px 20px 16px;
+    padding-left: 100px;
+    padding-right: 170px;
+
+}
+
+.image, img {
+    width: 390px;
+    height: 260px;
+    margin-top: 80px;
+
+    
+}
